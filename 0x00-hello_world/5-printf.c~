@@ -1,0 +1,12 @@
+#include <stdio.h>
+/* 
+ *The main function of the program.
+ *using the print funtion to print "with proper grammar, but the outcome is a piece of art,"
+ * Return 0 =  success of the program 
+ * 
+*/
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,");
+	return (0);
+}
