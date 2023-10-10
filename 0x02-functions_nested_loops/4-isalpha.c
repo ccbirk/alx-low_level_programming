@@ -1,13 +1,22 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Entry point
+ * _isalpha - will output one if the input is a letter
  *
- * Description: prints "Programming is like building a multilingual puzzle"
+ * @c: character in ASCII
  *
- * Return: Always 0 (Success)
+ * Return: 1 for letters
  */
-int main(void)
+
+int _isalpha(int c)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
 }
