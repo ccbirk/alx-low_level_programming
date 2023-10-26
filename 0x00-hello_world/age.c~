@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+  short Age = 15;
+    printf("%d\n" , Age);
+  return 0;
+}
