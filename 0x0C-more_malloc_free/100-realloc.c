@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>\
 /**
  * _realloc - re-allocates a memory block
  * @ptr: pointer to old allocated memory
