@@ -1,11 +1,11 @@
-include "function_pointers.h"
+#include "function_pointers.h"
 
 /**
  * int_index - earches for an integer
  *
- * @array: which array to search in
- * @size: size of the array
- * @cmp: pointer to the comparing function
+ * @array: specifies which array to search in
+ * @size: the size of the array
+ * @cmp: the pointer to the comparing function
  *
  * Return: the index of the first element for which
  *the cmp function does not return 0, or -1 if no match is found
