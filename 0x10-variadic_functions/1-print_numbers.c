@@ -1,13 +1,14 @@
 #include "variadic_functions.h"
-
 /**
-* print number - prints numbers given as parameters
-*
-* @seperator: string to be printed between numbers
-* @n: number of intergers passed to the function
-*
-* Return: 0
-*/
+ * print_numbers - prints @n integer args using a separator in between
+ * @n: number of args that will get fed
+ * @separator: a string(char pointer) to separate @n args
+ * check if @separator is NULL or not
+ * if not NULL prints @n args followed by @separator
+ * while i(counter) is less than (@n - 1) and once i < n print a new line
+ * otherwise print @n args without @separator and end the full print using
+ * new line
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
