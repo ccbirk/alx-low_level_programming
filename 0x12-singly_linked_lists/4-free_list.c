@@ -1,7 +1,8 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <stddef.h>
 
-/**
+/**a
  * free_list - A funct that frees a linked list
  * @head: The list_t list to be freed
  */
@@ -17,3 +18,4 @@ void free_list(list_t *head)
 		free(head);
 		head = temp;
 	}
+}
