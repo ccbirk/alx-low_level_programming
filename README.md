@@ -1,2 +1,1 @@
-Introducion to C
-and more 
+Introducion to C programming and more 
